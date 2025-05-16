@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav-logo">
+                <a href="#" class="nav-logo-text">K</a>
+            </div>
+
+            <div class="nav-menu">
+                <div class="menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link">Work</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#interests" class="nav-link">interests</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="btn-share">
+                <i class="uil uil-share-alt social-share"></i>
+            </div>
+
+            <div class="nav-close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
+        </nav>
+    </aside>
+    <!-- Main -->
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home-container container grid">
+                <div class="home-social">
+                    <span class="home-social-follow">Follow Me</span>
+                    <div class="home-social-links">
+                        <a href="https://www.facebook.com/share/1L2SvcG64b/" target="_blank" class="home-social-link">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/z_khaled66?igsh=ZWpxODVpbnplZTU4" target="_blank"
+                            class="home-social-link">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="./media/mePic.jpg" alt="" class="home-img">
+
+                <div class="home-data">
+                    <h1 class="home-title">Hi, I'm Khaled</h1>
+                    <h3 class="home-subtitle">Frontend Developer</h3>
+                    <p class="home-description">I have a little experience in web design, and I'm the webmaster of IEEE CIS UJ. </p>
+                    <a href="#about" class="button">
+                        <i class="uil uil-user button-icon"></i>
+                        More About me!
+                    </a>
+                </div>
+
+                <div class="my-info">
+
+                    <div class="info-item">
+                        <i class="uil uil-whatsapp info-icon"></i>
+
+                        <div>
+                            <h3 class="info-title">Whatsapp</h3>
+                            <span class="info-subtitle"></span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="uil uil-envelope-edit info-icon"></i>
+
+                        <div>
+                            <h3 class="info-title">Email</h3>
+                            <span class="info-subtitle">khaledraedkhateeb@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- About Me -->
+        <section class="about section" id="about">
+            <div class="gradiant"> </div>
+            <h2 class="section-title" data-heading="My Intro">About me</h2>
+
+            <div class="about-container container grid">
+                <img src="./media/mePic.jpg" alt="" class="about-img">
+
+                <div class="about-data">
+                    <h3 class="about-heading">Hi, I'm Khaled Al-Khateeb, based in Jordan</h3>
+                    <p class="about-description">I'm a Computer Science student at the University of Jordan with a
+                        strong passion for web development and design. Currently serving as the Webmaster for the IEEE
+                        Computational Intelligence Society (CIS) student branch at my university, I actively contribute
+                        to building and maintaining web platforms that serve our tech community.
+                    </p>
+
+                    <div class="about-info">
+                        <div class="about-box">
+                            <i class="uil uil-award about-icon"></i>
+                            <h3 class="about-title">Experience</h3>
+                            <span class="about-subtitle">Still studying</span>
+                        </div>
+
+                        <div class="about-box">
+                            <i class="uil uil-suitcase-alt about-icon"></i>
+                            <h3 class="about-title">Completed</h3>
+                            <span class="about-subtitle">2 projects</span>
+                        </div>
+
+                        <div class="about-box">
+                            <i class="uil uil-headphones-alt about-icon"></i>
+                            <h3 class="about-title">Support</h3>
+                            <span class="about-subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="button"><i class="uil uil-navigator button-icon"></i>Contact me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title" data-heading="My Abilities">My Experience</h2>
+
+            <div class="skills-container container grid">
+                <div class="skills-tabs">
+                    <div class="skills-header skills-active" data-target="#frontend">
+                        <i class="uil uil-brackets-curly skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Frontend Developer</h1>
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-header" data-target="#design">
+                        <i class="uil uil-swatchbook skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">UI / UX Design</h1>
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-header" data-target="#backend">
+                        <i class="uil uil-server-network skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Backend Developer</h1>
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+                </div>
+
+                <div class="skills-content">
+                    <div class="skills-group skills-active" data-content id="frontend">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <span class="skills-number">50%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 50%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Javascript</h3>
+                                    <span class="skills-number">40%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 40%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">React</h3>
+                                    <span class="skills-number">10%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 10%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-group" data-content id="design">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Figma</h3>
+                                    <span class="skills-number">in progress...</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 0%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Sketch</h3>
+                                    <span class="skills-number">in progress...</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 0%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">PhotoShop</h3>
+                                    <span class="skills-number">in progress...</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 0%;"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skills-group" data-content id="backend">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">PHP</h3>
+                                    <span class="skills-number">in progress...</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 0%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">in progress...</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 0%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MySQL</h3>
+                                    <span class="skills-number">15%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 15%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Firebase</h3>
+                                    <span class="skills-number">5%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 5%;"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects section -->
+        <section class="work section" id="work">
+            <h2 class="section-title" data-heading="My Portfolio">Recent Works</h2>
+
+            <div class="work-filters">
+                <span class="work-item active-work" data-filter="all">All</span>
+                <span class="work-item" data-filter=".web">Web</span>
+                <span class="work-item" data-filter=".design">Design</span>
+            </div>
+
+            <div class="work-container container grid">
+                <div class="work-card mix web">
+                    <img src="./media/FirstProject.png" alt="" class="work-img">
+                    <h3 class="work-title">Login page</h3>
+                    <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">Design for websites</h3>
+                        <p class="details-description">Modern and responsive login page for websites and apps</p>
+                        <ul class="details-info">
+                            <li>Created - <span>13 Mar 2025</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="https://github.com/KhaledRaed/FirstProject">Click here</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work-card mix design">
+                    <img src="./media/Qmark.jpg" alt="" class="work-img">
+                    <h3 class="work-title">Animated gallery</h3>
+                    <span class="work-button">Demo<i class="uil uil-arrow-right work-button-icon"></i></span>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title">App for Technology & interests</h3>
+                        <p class="details-description">Animated and modern gallery for applications and websites</p>
+                        <ul class="details-info">
+                            <li>Created - <span> ? ? 2025</span></li>
+                            <li>Technologies - <span>Html Css JS</span></li>
+                            <li>Role - <span>frontend</span></li>
+                            <li>View - <span><a href="#">Click here</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="portfolio-popup">
+            <div class="portfolio-popup-inner">
+                <div class="portfolio-popup-content grid">
+                    <span class="portfolio-popup-close"><i class="uil uil-times"></i></span>
+                    <div class="pp-thumbnail">
+                        <img src="" alt="" class="portfolio-popup-img">
+                    </div>
+
+                    <div class="portfolio-popup-info">
+                        <div class="portfolio-popup-subtitle">Featured - <span>Design</span></div>
+                        <div class="portfolio-popup-body">
+                            <h3 class="details-title">App for Technology & interests</h3>
+                            <p class="details-description"></p>
+
+                            <ul class="details-info">
+                                <li>Created - <span>? ? 2025</span></li>
+                                <li>Technologies - <span>Html Css JS</span></li>
+                                <li>Role - <span>frontend</span></li>
+                                <li>View - <span><a href="#">Click here</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interests section -->
+        <section class="interests section" id="interests">
+            <h2 class="section-title" data-heading="interests">My Interests</h2>
+
+            <div class="interests-container container grid">
+                <div class="interests-content">
+                    <div>
+                        <i class="uil uil-web-grid interests-icon"></i>
+                        <h3 class="interests-title">Web <br> Design</h3>
+                    </div>
+                    <div class="interests-modal">
+                        <div class="interests-modal-content">
+                        </div>
+                    </div>
+                </div>
+                <div class="interests-content">
+                    <div>
+                        <i class="uil uil-arrow interests-icon"></i>
+                        <h3 class="interests-title">UI/UX <br> Design</h3>
+                    </div>
+                    <div class="interests-modal">
+                        <div class="interests-modal-content">
+                        </div>
+                    </div>
+                </div>
+                <div class="interests-content">
+                    <div>
+                        <i class="uil uil-edit interests-icon"></i>
+                        <h3 class="interests-title">Branding <br> Design</h3>
+                    </div>
+        </section>
+
+        <!-- Sayings section -->
+        <section class="Sayings section">
+            <h2 class="section-title" data-heading="beautiful words">Quotes</h2>
+
+            <div class="Sayings-container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="Saying-card swiper-slide">
+                        <div class="Saying-quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="Saying-description">“If there's a will there's a way”</p>
+                        <h3 class="Saying-date">in 1640</h3>
+                        <div class="Saying-profile">
+                            <img src="./media/George.jpg" alt="" class="Saying-profile-img">
+
+                            <div class="Saying-profile-data">
+                                <span class="Saying-profile-name">George Herbert</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Saying-card swiper-slide">
+                        <div class="Saying-quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="Saying-description">“Who you are is defined by what you're willing to struggle for”
+                        </p>
+                        <h3 class="Saying-date">march 13, 2020</h3>
+                        <div class="Saying-profile">
+                            <img src="./media/markManson.webp" alt="" class="Saying-profile-img">
+
+                            <div class="Saying-profile-data">
+                                <span class="Saying-profile-name">Mark Manson</span>
+                                <span class="Saying-profile-detail">A writer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Saying-card swiper-slide">
+                        <div class="Saying-quote">
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <p class="Saying-description">“It is better to be hated for what you are than to be loved for
+                            what you are not.”
+                        </p>
+                        <h3 class="Saying-date">May 24, 2016</h3>
+                        <div class="Saying-profile">
+                            <img src="./media/andre.jpg" alt="" class="Saying-profile-img">
+
+                            <div class="Saying-profile-data">
+                                <span class="Saying-profile-name">Andre Gide</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!-- Contact me section -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title" data-heading="Get in Touch">Contact me</h2>
+
+            <div class="contact-container container grid">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="uil uil-envelope-edit contact-card-icon"></i>
+                            <h3 class="contact-card-title">Email</h3>
+                            <span class="contact-card-data">khaledraedkhateeb@gmail.com</span>
+                            <span class="contact-button">Write me <i
+                                    class="uil uil-arrow-right contact-button-icon"></i></span>
+                        </div>
+
+                        <div class="contact-card">
+                            <i class="uil uil-whatsapp contact-card-icon"></i>
+                            <h3 class="contact-card-title">Whatsapp</h3>
+                            <span class="contact-card-data"></span>
+                            <span class="contact-button">Write me <i
+                                    class="uil uil-arrow-right contact-button-icon"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact-content">
+                    <form action="" class="contact-form">
+                        <div class="input-container">
+                            <input type="text" class="input">
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input type="email" class="input">
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input type="tel" class="input">
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+
+                        <div class="input-container textarea">
+                            <textarea name="" id="" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+
+                        <button type="submit" class="button"><i class="uil uil-navigator button-icon"></i>Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="footer-container container grid">
+                    <div>
+                        <h1 class="footer-title">khaled</h1>
+                        <span class="footer-subtitle">Frontend Developer</span>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#interests" class="footer-links">interests</a>
+                        </li>
+                        <li>
+                            <a href="#work" class="footer-links">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer-links">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/share/1L2SvcG64b/" target="_blank" class="footer-social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/z_khaled66?igsh=ZWpxODVpbnplZTU4" target="_blank"
+                            class="footer-social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="functions.js"></script>
+</body>
+
+</html>
